@@ -1,0 +1,20 @@
+1. What is the definition of server port?
+A server port is a number that specifies an endpoint where the network message going to be forwarded to.
+
+2. What is server port range?
+Server port range from 0 to 65535
+
+3. How many bits does number above represent?
+16-bit
+
+4. State 10 common serever ports:
+ - Remote Job Entry (RJE): 5
+ - FTP --Data: 20
+ - FRB --Control: 21
+ - Simple Mail Transfer Protocol(SMTP): 25
+ - Time: 37
+ - HTTP: 80
+ - SQL Services: 118
+ - DHCP Client: 546
+ - POP3: 110
+ - MSN: 569
