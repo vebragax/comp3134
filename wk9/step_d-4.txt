@@ -1,0 +1,4 @@
+What you see on the browser (the issue)
+I can see the directories of the server root, which should not be possible
+What sensitive information is given by this page
+All the folders of the server

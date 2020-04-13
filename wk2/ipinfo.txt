@@ -1,0 +1,5 @@
+github.com 140.82.113.4
+georgebrown.ca 198.96.86.202
+seneca.ca 104.196.33.139
+senecacollege.ca 34.243.56.93
+google.com 172.217.203.139

@@ -1,0 +1,3 @@
+I updated the informing of the allowed directory by the allowedD variable
+
+I also updated the reporting error if folder does not exist

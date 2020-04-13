@@ -1,0 +1,4 @@
+What you see on the browser (the issue)
+Attackers can easily navigate through the server
+What sensitive information is given by this page
+Also have access to folders prior to main

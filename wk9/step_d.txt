@@ -1,0 +1,4 @@
+What you see on the browser?
+This page is showing that you can traverse through folders without any problem
+What sensitive information is given by this page?
+Path, which can be abusedd to gain access

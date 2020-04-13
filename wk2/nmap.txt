@@ -1,0 +1,58 @@
+#1
+root@lamp-s-1vcpu-1gb-tor1-01:~# nmap google.com
+
+Starting Nmap 7.60 ( https://nmap.org ) at 2020-04-12 21:40 UTC
+Nmap scan report for google.com (172.217.0.238)
+Host is up (0.00083s latency).
+Other addresses for google.com (not scanned): 2607:f8b0:400b:802::200e
+rDNS record for 172.217.0.238: dfw06s38-in-f14.1e100.net
+Not shown: 998 filtered ports
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap done: 1 IP address (1 host up) scanned in 9.44 seconds
+
+#2
+root@lamp-s-1vcpu-1gb-tor1-01:~# nmap -p 50 google.com
+
+Starting Nmap 7.60 ( https://nmap.org ) at 2020-04-12 21:40 UTC
+Nmap scan report for google.com (172.217.165.14)
+Host is up (0.0018s latency).
+Other addresses for google.com (not scanned): 2607:f8b0:400b:802::200e
+rDNS record for 172.217.165.14: yyz12s06-in-f14.1e100.net
+
+PORT   STATE    SERVICE
+50/tcp filtered re-mail-ck
+
+Nmap done: 1 IP address (1 host up) scanned in 0.52 seconds
+
+#3
+root@lamp-s-1vcpu-1gb-tor1-01:~# nmap -p 1-100 google.com
+
+Starting Nmap 7.60 ( https://nmap.org ) at 2020-04-12 21:41 UTC
+Nmap scan report for google.com (172.217.165.14)
+Host is up (0.0016s latency).
+Other addresses for google.com (not scanned): 2607:f8b0:400b:802::200e
+rDNS record for 172.217.165.14: yyz12s06-in-f14.1e100.net
+Not shown: 99 filtered ports
+PORT   STATE SERVICE
+80/tcp open  http
+
+Nmap done: 1 IP address (1 host up) scanned in 2.84 seconds
+
+#4
+root@lamp-s-1vcpu-1gb-tor1-01:~# nmap -F google.com
+
+Starting Nmap 7.60 ( https://nmap.org ) at 2020-04-12 21:41 UTC
+Nmap scan report for google.com (172.217.165.14)
+Host is up (0.0014s latency).
+Other addresses for google.com (not scanned): 2607:f8b0:400b:802::200e
+rDNS record for 172.217.165.14: yyz12s06-in-f14.1e100.net
+Not shown: 98 filtered ports
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap done: 1 IP address (1 host up) scanned in 2.43 seconds
+
