@@ -1,0 +1,1 @@
+HTML form does not capture data from sender while the php form will send hidden data to action page

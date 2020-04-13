@@ -1,0 +1,4 @@
+1. URL changed to https://www.dictionary.com/browse/english#
+2. URL changed to https://www.dictionary.com/misspelling?term=asbt
+3. The page display every results that include hello
+4. Same as 3
