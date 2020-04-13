@@ -1,0 +1,5 @@
+1/ Expected since the Ben is not active (0)
+
+2/ Two dashes eliminate the second condition thus showing the result from last name despite not matching the whole condition
+
+3/ Unexpected, not really sure about 1=1
